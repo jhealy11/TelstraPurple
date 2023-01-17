@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.Console.Client", "TelstraPurple.Console.Client\TelstraPurple.Console.Client.csproj", "{2E8CA526-174D-4DDA-9EE1-DA1346D2D98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.Robot", "TelstraPurple.Robot\TelstraPurple.Robot.csproj", "{32AB72F2-168C-4B78-8954-84EF86F5E034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.Console.Client.Tests", "TelstraPurple.Console.Client.Tests\TelstraPurple.Console.Client.Tests.csproj", "{A454951C-2F4B-4D78-AAF1-6921D3EFA923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraPurple.Robot.Tests", "TelstraPurple.Robot.Tests\TelstraPurple.Robot.Tests.csproj", "{61334DB1-BB13-47A5-AF4F-24B793811B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{922709DC-9158-4CD9-AAE1-34F08505C5D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A2FB29E7-C1F8-4F02-9B0D-D439883B9DA2}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8CA526-174D-4DDA-9EE1-DA1346D2D98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8CA526-174D-4DDA-9EE1-DA1346D2D98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8CA526-174D-4DDA-9EE1-DA1346D2D98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8CA526-174D-4DDA-9EE1-DA1346D2D98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AB72F2-168C-4B78-8954-84EF86F5E034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AB72F2-168C-4B78-8954-84EF86F5E034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AB72F2-168C-4B78-8954-84EF86F5E034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AB72F2-168C-4B78-8954-84EF86F5E034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A454951C-2F4B-4D78-AAF1-6921D3EFA923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A454951C-2F4B-4D78-AAF1-6921D3EFA923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A454951C-2F4B-4D78-AAF1-6921D3EFA923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A454951C-2F4B-4D78-AAF1-6921D3EFA923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61334DB1-BB13-47A5-AF4F-24B793811B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61334DB1-BB13-47A5-AF4F-24B793811B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61334DB1-BB13-47A5-AF4F-24B793811B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61334DB1-BB13-47A5-AF4F-24B793811B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A454951C-2F4B-4D78-AAF1-6921D3EFA923} = {922709DC-9158-4CD9-AAE1-34F08505C5D3}
+		{61334DB1-BB13-47A5-AF4F-24B793811B2F} = {922709DC-9158-4CD9-AAE1-34F08505C5D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {463E4BD5-851F-44A8-80E5-6C327D4D99BF}
+	EndGlobalSection
+EndGlobal
