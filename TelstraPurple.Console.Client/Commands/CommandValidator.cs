@@ -44,7 +44,7 @@ namespace TelstraPurple.Console.Client.Commands
             if (string.IsNullOrEmpty(orientation))
                 throw new ArgumentNullException(orientation);
 
-            if (Enum.TryParse<Orientation>(orientation, false, out Orientation result))
+            if (Enum.TryParse<Orientation>(orientation, true, out Orientation result))
             {
                 return result;
             }
@@ -68,7 +68,7 @@ namespace TelstraPurple.Console.Client.Commands
                 throw new ArgumentNullException(command);
             }
 
-            if (Enum.TryParse<PrimaryCommand>(command, false, out PrimaryCommand result))
+            if (Enum.TryParse<PrimaryCommand>(command, true, out PrimaryCommand result))
             {
                 return result;
             }
